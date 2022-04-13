@@ -9,10 +9,13 @@
     <body>
         <form>
             <input type="text" name="login" placeholder="Login"> <br>
-            <select name="papel">
-                <option>Administrador</option>
-                <option>Usuário  Comum</option>
+            <input type="password" name="senha" placeholder="Senha"> <br>
+            <select name="papel">   
+                <option value="0">Administrador</option>
+                <option value="1" selected>Usuário  Comum</option>
+                <option value="2">Gerente</option>
             </select>
+            <input type="number" min="0" step="0.01" max="120">
             <input type="submit">
         </form>
     </body>
